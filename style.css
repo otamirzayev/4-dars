@@ -1,19 +1,18 @@
 @font-face {
   font-display: swap;
-  font-family: 'League Spartan';
+  font-family: "League Spartan";
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/league-spartan-v11-latin-500.woff2') format('woff2');
+  src: url("../fonts/league-spartan-v11-latin-500.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: 'League Spartan';
+  font-family: "League Spartan";
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/league-spartan-v11-latin-700.woff2') format('woff2');
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2");
 }
-
 
 * {
   margin: 0;
@@ -45,16 +44,15 @@ a {
 
 body {
   height: 100%;
-  font-family: 'League Spartan';
+  font-family: "League Spartan";
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  background-image: url('./images/Combined\ Shape.png');
+  background-image: url("./images/Combined\ Shape.png");
   background-repeat: no-repeat;
   background-position: top 5px center;
-  background-color: #EFFAFA;
+  background-color: #effafa;
 }
-
 
 .list {
   display: flex;
@@ -67,7 +65,7 @@ body {
 .list__item {
   display: flex;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 32px 35px;
   box-shadow: 0px 6px 6px rgb(213, 234, 236);
@@ -96,7 +94,7 @@ body {
 }
 
 .top__item-title {
-  color: #5CA5A5;
+  color: #5ca5a5;
 }
 
 .top__item-text {
@@ -107,10 +105,9 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 14px;
-  color: #FFFFFF;
-  background-color: #5CA5A5;
+  color: #ffffff;
+  background-color: #5ca5a5;
   text-transform: uppercase;
-
 }
 
 .top__item-description {
@@ -121,8 +118,8 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 14px;
-  color: #FFFFFF;
-  background-color: #2B3939;
+  color: #ffffff;
+  background-color: #2b3939;
   text-transform: uppercase;
 }
 
@@ -146,28 +143,25 @@ body {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: #B7C4C4;
+  background-color: #b7c4c4;
 }
 
 .bottom__item-text {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
-  color: #7C8F8F;
+  color: #7c8f8f;
 }
-
-
-
 
 .list__post {
   display: flex;
   gap: 16px;
-  color: #5CA5A5;
+  color: #5ca5a5;
 }
 
 .list__post-text {
   text-align: center;
   padding: 8px 19px;
   border-radius: 4px;
-  background-color: #EFF6F6;
+  background-color: #eff6f6;
 }
